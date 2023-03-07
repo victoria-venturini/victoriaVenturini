@@ -193,10 +193,8 @@ a:active {
 background-color: rgba(14, 2, 175, 0.3);
 }
 
-@media screen and (max-width: 630px) {
-    ul{
-        flex-direction: column;
-    }
+@media screen and (max-width: 480px) {
+  
 
 }
 
