@@ -1,15 +1,27 @@
-body {
-  background-image: url(../assets/london-background.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-family: "EB Garamond", serif;
-  font-family: "Gloock", serif;
+body main .beneficios {
+  color: rgb(2, 11, 133);
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 900;
+  align-items: center;
+  display: inline-block;
+  border: 2px;
+  border-style: solid;
+  border-color: white;
+  padding: 15px;
+  position: relative;
+  left: 50px;
+  list-style: none;
+  line-height: 50px;
+  margin-left: 40px;
 }
-body header .logo-mio {
+
+header .logo-mio {
   display: flex;
   justify-content: center;
 }
-body header .titulo {
+header .titulo {
   color: rgb(255, 255, 255);
   background-color: rgba(14, 2, 175, 0.5);
   padding: 20px;
@@ -17,7 +29,7 @@ body header .titulo {
   border-style: outset;
   text-align: center;
 }
-body header .slogan {
+header .slogan {
   color: rgb(2, 11, 133);
   background-color: rgba(255, 255, 255, 0.5);
   font-size: 18px;
@@ -26,7 +38,12 @@ body header .slogan {
   text-align: center;
   padding: 5px;
 }
-body header nav .nav-bar-mia {
+header .slogan {
+  background-color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  border: 1px solid white;
+}
+header nav .nav-bar-mia {
   color: white;
   display: flex;
   font-size: 30px;
@@ -36,13 +53,13 @@ body header nav .nav-bar-mia {
   justify-content: center;
   font-weight: 700;
 }
-body header nav ul {
+header nav ul {
   color: white;
   display: flex;
   gap: 50px;
   list-style: none;
 }
-body header nav ul li a {
+header nav ul li a {
   color: white;
   background-color: rgba(236, 0, 0, 0.7);
   display: flex;
@@ -56,6 +73,24 @@ body header nav ul li a {
   padding: 20px 40px 15px 40px;
   font-weight: 500;
   justify-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+}
+body {
+  background-image: url(../assets/london-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "EB Garamond", serif;
+  font-family: "Gloock", serif;
 }
 body main ul {
   color: rgb(2, 11, 133);
@@ -92,9 +127,30 @@ body main .btn-mio {
   background-color: rgba(248, 7, 7, 0.7);
   display: flex;
   justify-content: space-evenly;
-  padding: 1px;
+  padding: 5px;
   border: solid white 2px;
   border-radius: 0px;
+}
+body main .form-mio {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: medium;
+  font-weight: 570;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 5px;
+  border: solid white 2px;
+  margin-right: 40px;
+}
+body main .titulo-form {
+  font-weight: 600;
+  color: black;
+  background-color: rgba(14, 2, 175, 0.5);
+  padding: 10px;
+  font-size: medium;
+  border-style: outset;
+  text-align: center;
 }
 body main .btn-mio:hover {
   background-color: rgba(255, 255, 255, 0.5);
@@ -105,15 +161,14 @@ body footer {
   background-color: rgba(255, 255, 255, 0.5);
   display: inline;
 }
-
-body main h2 {
+body body main h2 {
   color: rgb(255, 255, 255);
   background-color: rgba(14, 2, 175, 0.5);
   padding: 5px;
   font-size: 25px;
   border-style: outset;
 }
-body main ul li a {
+body body main ul li a {
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -131,8 +186,7 @@ body main ul li a {
   font-weight: 500;
   justify-items: center;
 }
-
-main #sobrenosotrostitle {
+body main #sobrenosotrostitle {
   color: rgb(255, 255, 255);
   background-color: rgba(214, 4, 4, 0.5);
   font-size: 18px;
@@ -148,7 +202,7 @@ main #sobrenosotrostitle {
   border: 5px;
   border-style: outset;
 }
-main #sobrenosotros {
+body main #sobrenosotros {
   color: rgb(255, 255, 255);
   background-color: rgba(214, 4, 4, 0.6);
   font-size: 18px;
@@ -164,21 +218,13 @@ main #sobrenosotros {
   border: 5px;
   border-style: outset;
 }
-
-a:hover {
+body a:hover {
   background-color: rgba(255, 255, 255, 0.5);
   color: black;
   border: solid transparent;
 }
-
-a:active {
+body a:active {
   background-color: rgba(14, 2, 175, 0.3);
-}
-
-@media screen and (max-width: 630px) {
-  ul {
-    flex-direction: column;
-  }
 }
 
 /*# sourceMappingURL=styles.css.map */

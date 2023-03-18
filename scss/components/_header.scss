@@ -20,6 +20,13 @@ header {
         text-align: center;
         padding: 5px;
     }
+
+    .slogan{
+        background-color: map-get($encabezado, bg-header);
+        text-decoration: map-get($encabezado, decoration-header);
+        border: map-get($encabezado, border);
+    }
+    
     nav{
         .nav-bar-mia {
             color: white;

@@ -4,8 +4,3 @@ $encabezado: (
     border: 1px solid white,
 );
 
-.slogan{
-    background-color: map-get($encabezado, bg-header);
-    text-decoration: map-get($encabezado, decoration-header);
-    border: map-get($encabezado, border);
-}

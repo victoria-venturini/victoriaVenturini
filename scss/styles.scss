@@ -1,8 +1,20 @@
 //base
 @import './base/variables';
 @import './base/maps';
+@import './base/extend';
+@import './base/mixin';
 //components
 @import './components/header';
+@media screen and (max-width: 576px) {
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 
 // index 
@@ -13,8 +25,10 @@ body { background-image: url(../assets/london-background.jpg);
     font-family: 'Gloock', serif;
 
 
-
 main {
+    .beneficios {
+        @extend %dflex;
+        }
     ul{
         color: rgb(2, 11, 133);
         background-color: rgba(255, 255, 255, 0.5);
@@ -34,28 +48,22 @@ main {
         
     }
     .cards-mias {
-        display: flex;
-        justify-content: space-evenly;
-        border-radius: 0%;
-        border-color: white;
-        border-width: 3px;
-        background-color:rgba(14, 2, 175, 0.5); 
-        color: white;
+        @include cards();
     }
     
     .cards-mia {
-        display: flex;
-        justify-content: space-evenly;
+        @include cards-mia();
     }
     
     .btn-mio {
-        color: white;
-        background-color: rgba(248, 7, 7, 0.7);
-        display: flex;
-        justify-content: space-evenly;
-        padding: 1px;
-        border: solid white 2px;
-        border-radius: 0px;
+       @include boton-mio();
+    }
+    .form-mio {
+        @include form-mio();
+    }
+
+    .titulo-form {
+    @include titulo-form
     }
     
     .btn-mio:hover{
@@ -70,7 +78,7 @@ footer {
     display: inline;
 
 }
-}
+
 
 // Cursos 
 
@@ -154,8 +162,4 @@ a:active {
 background-color: rgba(14, 2, 175, 0.3);
 }
 
-@media screen and (max-width: 630px) {
-ul{
-    flex-direction: column;
-}
 }
