@@ -1,0 +1,60 @@
+header {
+    .logo-mio {
+        display: flex;
+        justify-content: center;
+    }
+    .titulo {
+        color: rgb(255, 255, 255);
+        background-color: rgba(14, 2, 175, 0.5);
+        padding: 20px;
+        font-size: 30px;
+        border-style: outset;
+        text-align: center;
+    }
+    .slogan {
+        color: rgb(2, 11, 133);
+        background-color: rgba(255, 255, 255, 0.5);
+        font-size: 18px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 900;
+        text-align: center;
+        padding: 5px;
+    }
+    nav{
+        .nav-bar-mia {
+            color: white;
+            display: flex;
+            font-size: 30px;
+            text-decoration: none;
+            list-style: none;
+            padding: 15px;
+            justify-content: center;
+            font-weight: 700;
+        }
+        
+        ul{ 
+            color: white;
+            display: flex;
+            gap: 50px;  
+            list-style: none;
+            li {
+                a{
+                color: white;
+                background-color:rgba(236, 0, 0, 0.7);
+                display: flex;
+                font-size: 20px;
+                text-decoration: none;
+                border: 4px;
+                border-color: white;
+                border-style: outset;
+                border-width: 3px;
+                list-style: none;
+                padding: 20px 40px 15px 40px;
+                font-weight: 500;
+                justify-items: center;
+            }} 
+        }
+        
+    }
+
+}

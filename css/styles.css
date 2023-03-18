@@ -1,211 +1,184 @@
 body {
-    background-image: url(../assets/london-background.jpg); 
-    background-color:rgba(48, 44, 44, 0.1);
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: 'EB Garamond', serif;
-    font-family: 'Gloock', serif;
- }
-
- /* Index */
-    /* Header */
-.logo-mio {
-    display: flex;
-    justify-content: center;
+  background-image: url(../assets/london-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "EB Garamond", serif;
+  font-family: "Gloock", serif;
+}
+body header .logo-mio {
+  display: flex;
+  justify-content: center;
+}
+body header .titulo {
+  color: rgb(255, 255, 255);
+  background-color: rgba(14, 2, 175, 0.5);
+  padding: 20px;
+  font-size: 30px;
+  border-style: outset;
+  text-align: center;
+}
+body header .slogan {
+  color: rgb(2, 11, 133);
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 900;
+  text-align: center;
+  padding: 5px;
+}
+body header nav .nav-bar-mia {
+  color: white;
+  display: flex;
+  font-size: 30px;
+  text-decoration: none;
+  list-style: none;
+  padding: 15px;
+  justify-content: center;
+  font-weight: 700;
+}
+body header nav ul {
+  color: white;
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+body header nav ul li a {
+  color: white;
+  background-color: rgba(236, 0, 0, 0.7);
+  display: flex;
+  font-size: 20px;
+  text-decoration: none;
+  border: 4px;
+  border-color: white;
+  border-style: outset;
+  border-width: 3px;
+  list-style: none;
+  padding: 20px 40px 15px 40px;
+  font-weight: 500;
+  justify-items: center;
+}
+body main ul {
+  color: rgb(2, 11, 133);
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 900;
+  align-items: center;
+  display: inline-block;
+  border: 2px;
+  border-style: solid;
+  border-color: white;
+  padding: 15px;
+  position: relative;
+  left: 50px;
+  list-style: none;
+  line-height: 50px;
+}
+body main .cards-mias {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 0%;
+  border-color: white;
+  border-width: 3px;
+  background-color: rgba(14, 2, 175, 0.5);
+  color: white;
+}
+body main .cards-mia {
+  display: flex;
+  justify-content: space-evenly;
+}
+body main .btn-mio {
+  color: white;
+  background-color: rgba(248, 7, 7, 0.7);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1px;
+  border: solid white 2px;
+  border-radius: 0px;
+}
+body main .btn-mio:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid transparent;
+}
+body footer {
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: inline;
 }
 
-.titulo {
-    color: rgb(255, 255, 255);
-    background-color: rgba(14, 2, 175, 0.5);
-    padding: 20px;
-    font-size: 30px;
-    border-style: outset;
-    text-align: center;
+body main h2 {
+  color: rgb(255, 255, 255);
+  background-color: rgba(14, 2, 175, 0.5);
+  padding: 5px;
+  font-size: 25px;
+  border-style: outset;
+}
+body main ul li a {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 15px;
+  color: white;
+  background-color: rgba(236, 0, 0, 0.7);
+  font-size: 20px;
+  text-decoration: none;
+  border: 4px;
+  border-color: white;
+  border-style: outset;
+  border-width: 3px;
+  list-style: none;
+  padding: 20px 40px 15px 40px;
+  font-weight: 500;
+  justify-items: center;
 }
 
-.slogan {
-    color: rgb(2, 11, 133);
-    background-color: rgba(255, 255, 255, 0.5);
-    font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 900;
-    text-align: center;
-    padding: 5px;
+main #sobrenosotrostitle {
+  color: rgb(255, 255, 255);
+  background-color: rgba(214, 4, 4, 0.5);
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 300px;
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  word-spacing: 5px;
+  line-height: 25px;
+  margin-left: 550px;
+  padding: 10px;
+  border: 5px;
+  border-style: outset;
+}
+main #sobrenosotros {
+  color: rgb(255, 255, 255);
+  background-color: rgba(214, 4, 4, 0.6);
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 300px;
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  word-spacing: 5px;
+  line-height: 25px;
+  margin: 30px;
+  padding: 20px;
+  border: 5px;
+  border-style: outset;
 }
 
-/* Nav */
-.nav-bar-mia {
-    color: white;
-    display: flex;
-    font-size: 30px;
-    text-decoration: none;
-    list-style: none;
-    padding: 15px;
-    justify-content: center;
-    font-weight: 700;
-}
-
-nav ul {
-    display: flex;
-    gap: 50px;  
-    list-style: none;
-}
-
-ul a{
-    color: white;
-    background-color:rgba(236, 0, 0, 0.7);
-    display: flex;
-    font-size: 20px;
-    text-decoration: none;
-    border: 4px;
-    border-color: white;
-    border-style: outset;
-    border-width: 3px;
-    list-style: none;
-    padding: 20px 40px 15px 40px;
-    font-weight: 500;
-    justify-items: center;
-}
-
-
-/* Main */
-
-.beneficios {
-    color: rgb(2, 11, 133);
-    background-color: rgba(255, 255, 255, 0.5);
-    font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 900;
-    align-items: center;
-    display: inline-block;
-    border: 2px;
-    border-style: solid;
-    border-color: white;
-    padding: 15px;
-    position: relative;
-    left: 50px;
-    list-style: none;
-    line-height: 50px;
-}
-
-.cards-mias {
-    display: flex;
-    justify-content: space-evenly;
-    border-radius: 0%;
-    border-color: white;
-    border-width: 3px;
-    background-color:rgba(14, 2, 175, 0.5); 
-    color: white;
-}
-
-.cards-mia {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.btn-mio {
-    color: white;
-    background-color: rgba(248, 7, 7, 0.7);
-    display: flex;
-    justify-content: space-evenly;
-    padding: 1px;
-    border: solid white 2px;
-    border-radius: 0px;
-}
-
-.btn-mio:hover{
-    background-color: rgba(255, 255, 255, 0.5);;
-    color: black;
-    border: 2px solid transparent;
-}
-
-/* Footer */
-.seguinos {
-    font-size: 25px;
-}
-
-.copyright {
-    background-color: rgba(255, 255, 255, 0.5);
-    display: inline;
-}
-
-
-/* Cursos */
-h2{
-    color: rgb(255, 255, 255);
-    background-color: rgba(14, 2, 175, 0.5);
-    padding: 5px;
-    font-size: 25px;
-    border-style: outset;
-}
-
-.cursos-mio 
-{
-    display: flex;
-    flex-direction: column;
-    margin-left: 40px;
-    padding: 10px;
-    gap: 15px;
-}
-
-/* Sobre Nosotros  */
-
-#sobrenosotrostitle{
-    color: rgb(255, 255, 255);
-    background-color:  rgba(214, 4, 4, 0.5);
-    font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 300px;
-    align-items: center;
-    text-align: center;
-    display: inline-block;
-    word-spacing: 5px;
-    line-height: 25px;
-    margin-left: 550px;
-    padding: 10px;
-    border: 5px;
-    border-style: outset;
-}
-
-#sobrenosotros{
-    color: rgb(255, 255, 255);
-    background-color: rgba(214, 4, 4, 0.6);
-    font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 300px;
-    align-items: center;
-    text-align: center;
-    display: inline-block;
-    word-spacing: 5px;
-    line-height: 25px;
-    margin: 30px;
-    padding: 20px;
-    border: 5px;
-    border-style: outset;
-}
 a:hover {
-    background-color: rgba(255, 255, 255, 0.5);;
-    color: black;
-    border: solid transparent;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  border: solid transparent;
 }
 
 a:active {
-background-color: rgba(14, 2, 175, 0.3);
+  background-color: rgba(14, 2, 175, 0.3);
 }
 
-@media screen and (min-width: 576px) {
-    header {flex-direction: column;}
-    footer {flex-direction: column;}
-    main {flex-direction: column;}
+@media screen and (max-width: 630px) {
+  ul {
+    flex-direction: column;
+  }
 }
 
-@media screen and (min-width: 576px) {
-    header {text-align:center}
-    }
-    
-@media screen and (min-width: 768px) {
-    h1 {font-size:45px}
-    }
-
-
-
+/*# sourceMappingURL=styles.css.map */

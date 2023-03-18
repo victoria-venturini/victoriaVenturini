@@ -1,0 +1,11 @@
+$encabezado: (
+    bg-header: rgba(255, 255, 255, 0.5),
+    decoration-header: none,
+    border: 1px solid white,
+);
+
+.slogan{
+    background-color: map-get($encabezado, bg-header);
+    text-decoration: map-get($encabezado, decoration-header);
+    border: map-get($encabezado, border);
+}
