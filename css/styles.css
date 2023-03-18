@@ -1,5 +1,5 @@
 body {
-    /* background-image: url(../assets/london-background.jpg);  */
+    background-image: url(../assets/london-background.jpg); 
     background-color:rgba(48, 44, 44, 0.1);
     background-size: cover;
     background-repeat: no-repeat;
@@ -183,6 +183,7 @@ h2{
     border: 5px;
     border-style: outset;
 }
+
 a:hover {
     background-color: rgba(255, 255, 255, 0.5);;
     color: black;
