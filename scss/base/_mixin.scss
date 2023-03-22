@@ -1,11 +1,11 @@
 @mixin cards {
-        display: flex;
-        justify-content: space-evenly;
-        border-radius: 0%;
-        border-color: white;
-        border-width: 3px;
-        background-color:rgba(14, 2, 175, 0.5); 
-        color: white;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 0%;
+    border-color: white;
+    border-width: 3px;
+    background-color: rgba(14, 2, 175, 0.5);
+    color: white;
 }
 
 @mixin cards-mia {
@@ -14,13 +14,13 @@
 }
 
 @mixin boton-mio {
-        color: white;
-        background-color: rgba(248, 7, 7, 0.7);
-        display: flex;
-        justify-content: space-evenly;
-        padding: 5px;
-        border: solid white 2px;
-        border-radius: 0px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    border-radius: 0px;
+    border: solid transparent;
 }
 
 @mixin form-mio { 
@@ -34,14 +34,14 @@
     padding: 5px;
     border: solid white 2px;
     margin-right: 40px;
-}
+    }
 
 @mixin titulo-form {
-    font-weight: 600;
-    color: black;
-    background-color: rgba(14, 2, 175, 0.5);
-    padding: 10px;
-    font-size: medium;
-    border-style: outset;
-    text-align: center;
+  font-weight: 600;
+  color: black;
+  background-color: rgba(14, 2, 175, 0.5);
+  padding: 10px;
+  font-size: medium;
+  border-style: outset;
+  text-align: center;
 }

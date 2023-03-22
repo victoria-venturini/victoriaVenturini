@@ -1,19 +1,17 @@
 %dflex {
-    color: rgb(2, 11, 133);
-    background-color: rgba(255, 255, 255, 0.5);
-    font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 900;
-    align-items: center;
-    display: inline-block;
-    border: 2px;
-    border-style: solid;
-    border-color: white;
-    padding: 15px;
-    position: relative;
-    left: 50px;
-    list-style: none;
-    line-height: 50px;
-    margin-left: 40px;
+    .beneficios {
+        color: rgb(2, 11, 133);
+        background-color: rgba(255, 255, 255, 0.5);
+        font-size: 18px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-weight: 900;
+        display: inline-block;
+        border: 2px;
+        border-style: solid;
+        border-color: white;
+        padding: 15px;
+        list-style: none;
+        line-height: 50px;
+      }
 }
 
