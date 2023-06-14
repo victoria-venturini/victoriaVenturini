@@ -1,8 +1,4 @@
 
-//  let edad = Number(prompt("Ingrese su edad"));
-
-//  edad < 18 ? console.log("Debe dirigirse a la seccion English for Teens") : edad < 11 ?  console.log ("Debe dirigirse a la seccion Enlish for Kids") : console.log("Debe dirigirse a la seccion English for Adults");
-
 // OBJECTS AND ARRAYS
 
 class Curso{
