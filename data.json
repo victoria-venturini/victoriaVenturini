@@ -1,0 +1,8 @@
+[
+    { "id": 1, "nombre": "Kinder", "precio": 5000, "nivel": "Basico", "libro": "My English Stars and Friends 2"},
+    { "id": 2, "nombre": "First Contact", "precio": 5500, "nivel":"Elemental", "libro": "Learn with us 1"},
+    { "id": 3, "nombre": "Kids 1", "precio": 5800, "nivel": "Elemental", "libro": "Bright Ideas 3"},
+    { "id": 4, "nombre": "Teens 3", "precio": 6000, "nivel": "Pre- intermedio", "libro": "Gold Experience A2"},
+    { "id": 5, "nombre": "Adults 4", "precio": 6000, "nivel": "Intermedio", "libro": "English File Intermediate"}
+    
+   ]
